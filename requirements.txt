@@ -24,8 +24,8 @@ cachetools==5.5.0
 certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.3.2
-chroma-hnswlib==0.7.3
-chromadb==0.4.24
+chroma-hnswlib==0.7.6
+chromadb==0.5.16
 click==8.1.7
 cohere==5.9.2
 colorama==0.4.6
@@ -209,6 +209,7 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytube==15.0.0
 pytz==2024.2
+pywin32==306
 PyYAML==6.0.2
 pyzmq==26.2.0
 qdrant-client==1.11.1
