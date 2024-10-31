@@ -50,4 +50,4 @@ EVALRESULT_SESSIONNAME="Eval_result"
 RESULTCONTENT_SESSIONNAME="Shortlisted proposal content"
 
 #image folder location
-IMAGELOCATION=".\images"
+IMAGELOCATION="images"
