@@ -1,0 +1,67 @@
+ Step 5:
+**Results of Assessment for the Tender Proposal Quality**
+
+- **Category:** Category 8B, **Quality Factor:** Hiring Practices
+    - **Area of Assessment:** Attraction to maintain a constant pipeline of resources
+        - **Criteria:** Basic: Incorporating online advertisements with additional sources such as referral schemes or career fairs to attract candidates.
+        - **Score:** 2
+        - **Level:** Basic
+        - **Summary:** The proposal indicates a basic approach to attracting candidates, primarily through online advertisements. However, it lacks a comprehensive strategy that includes diverse outreach methods such as career fairs or referral schemes, which would enhance the candidate pipeline.
+        - **Citation:** "When it comes to selecting candidates, implementing thorough selection methods is key to identifying the best fit for the organization."
+
+    - **Area of Assessment:** Selection methods to shortlist candidates
+        - **Relevance of Selection Criteria:**
+            - **Criteria:** Basic: Selection criteria are somewhat aligned with the job requirements.
+            - **Score:** 2
+            - **Level:** Basic
+            - **Summary:** The proposal provides selection criteria that are somewhat aligned with job requirements, but they are not fully detailed or specific, leading to a basic score.
+            - **Citation:** "Technical assessments and behavioral interviews are commonly used to evaluate candidates' skills and cultural fit."
+        
+        - **Transparency in Selection Process:**
+            - **Criteria:** Average: Clear communication on the selection process, criteria, and timeline provided to all candidates.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal mentions clear communication regarding the selection process, which is a positive aspect, but it does not elaborate on how this communication is maintained, resulting in an average score.
+            - **Citation:** "We incorporate panel interviews with interviewers from various departments to gain diverse perspectives."
+        
+        - **Use of Multiple Selection Methods:**
+            - **Criteria:** Average: Utilization of multiple methods such as interviews, assessments, references, etc., to evaluate candidates.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal states that multiple methods are utilized for candidate evaluation, such as interviews and assessments, but does not provide extensive details on the effectiveness or variety of these methods, leading to an average score.
+            - **Citation:** "Reference checks are also essential to validate candidates' qualifications and work experience."
+        
+        - **Consistency in Evaluation:**
+            - **Criteria:** Average: Consistent evaluation criteria applied to all candidates to ensure fairness.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal indicates that evaluation criteria are applied consistently, but it lacks specific examples or metrics to demonstrate this consistency, resulting in an average score.
+            - **Citation:** "To retain valuable employees, a robust staff retention program is essential."
+        
+        - **Bias Mitigation:**
+            - **Criteria:** Average: Efforts made to mitigate biases and ensure fair evaluation of all candidates.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal mentions efforts to mitigate biases in the selection process, but it does not provide concrete measures or examples, leading to an average score.
+            - **Citation:** "To retain valuable employees, a robust staff retention program is essential."
+        
+        - **Candidate Experience:**
+            - **Criteria:** Average: Providing timely feedback and a positive experience for all candidates, regardless of the outcome.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal states that timely feedback is provided to candidates, contributing to a positive experience, but lacks details on how this feedback is structured or delivered, resulting in an average score.
+            - **Citation:** "To retain valuable employees, a robust staff retention program is essential."
+        
+        - **Assessment of Job Fit:**
+            - **Criteria:** Average: Evaluation includes assessing candidates' skills, experience, and cultural fit with the organization.
+            - **Score:** 3
+            - **Level:** Average
+            - **Summary:** The proposal includes assessments of candidates' skills and cultural fit, but it does not elaborate on the methods used for this assessment, leading to an average score.
+            - **Citation:** "To retain valuable employees, a robust staff retention program is essential."
+        
+        - **Validity and Reliability of Selection Methods:**
+            - **Criteria:** Basic: Some validation and reliability in selection methods.
+            - **Score:** 2
+            - **Level:** Basic
+            - **Summary:** The proposal indicates some validation of selection methods, but it does not provide sufficient evidence or examples to support this claim, resulting in a basic score.
+            - **Citation:** "To retain valuable employees, a robust staff retention program is essential."
