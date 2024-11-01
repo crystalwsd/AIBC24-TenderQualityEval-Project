@@ -53,3 +53,10 @@ if len(results) == 0:
     st.session_state[vl.RESULTCONTENT_SESSIONNAME] = sproposal_content
 
 st.write(st.session_state[vl.RESULTCONTENT_SESSIONNAME])
+
+
+with st.expander("Screenshots - Evaluate Shortlisted Tender Proposal"):
+    st.write("Default Landing Page:")
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Shortlisted Tender Proposal Evaluation-Landing Page.jpg"))
+    st.write("Final Evaluation of Shortlisted Proposals :")
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Shortlisted Tender Proposal Evaluation-Final Results.jpg"))

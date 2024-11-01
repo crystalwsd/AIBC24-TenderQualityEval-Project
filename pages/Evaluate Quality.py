@@ -117,3 +117,10 @@ with st.expander("Evaluate by Chatbot"):
     #botresponse = qh.SelfQueryRetriever(user_prompt)
     botresponse = st.session_state[vl.LASTCHATCONTEXT]
     cmsg.write(botresponse)
+
+
+with st.expander("Screenshots - Evaluate Tender Proposal"):
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Evaluate Tender Proposal-View JSON Format.jpg"))
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Evaluate Tender Proposal-Evaluate proposal by JSON file.jpg"))
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Evaluate Tender Proposal-Save Shortlist Proposal.jpg"))
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Evaluate Tender Proposal-Chatbot.jpg"))

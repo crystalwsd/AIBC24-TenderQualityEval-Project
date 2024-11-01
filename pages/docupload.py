@@ -93,3 +93,6 @@ if len(st.session_state[vl.METADATA_SESSIONNAME]) > 0:
     
 
 
+with st.expander("Screenshots - Tender Evaluation Documents Upload"):
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Document Upload-Tender Evaluation File.jpg"))
+    st.image(os.path.join(vl.SCREENSHOTLOCATION, "Document Upload-Tender Proposal Files.jpg"))
