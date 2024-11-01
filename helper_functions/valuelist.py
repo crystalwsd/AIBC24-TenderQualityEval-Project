@@ -51,4 +51,4 @@ RESULTCONTENT_SESSIONNAME="Shortlisted proposal content"
 
 #image folder location
 IMAGELOCATION="images"
-SCREENSHOTLOCATION=f"{IMAGELOCATION}\Screenshots"
+SCREENSHOTLOCATION=os.path.join(IMAGELOCATION, "Screenshots")
