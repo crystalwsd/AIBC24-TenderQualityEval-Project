@@ -6,7 +6,8 @@ from helper_functions import utility as ut
 #from logics import query_handler as qh
 from langchain_core.documents import Document 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_chroma import Chroma
+#from langchain_chroma import Chroma
+from langchain_chroma.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import JSONLoader
