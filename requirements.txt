@@ -159,7 +159,6 @@ pyreadline3==3.5.4
 pyright==1.1.387
 pysbd==0.3.4
 PySocks==1.7.1
-pysqlite3
 pysqlite3-binary
 pytest==8.3.3
 python-dateutil==2.9.0.post0
