@@ -12,6 +12,10 @@ from langchain.retrievers import ParentDocumentRetriever
 from langchain.storage import InMemoryStore
 
 
+import(‘pysqlite3’)
+import sys
+sys.modules[‘sqlite3’] = sys.modules.pop(‘pysqlite3’)
+
 embeddings_model = OpenAIEmbeddings(model=vl.EMBEDDING_MODEL)
 
 def get_SelfQueryRetrieval(prompt, collectionname=vl.COLLECTIONNAME, max_tokens=2048, temperature=0):
