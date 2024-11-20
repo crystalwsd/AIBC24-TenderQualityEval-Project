@@ -1,0 +1,5 @@
+id,doc_name,doc_category
+e8236ccd-d8bd-4b13-be60-431b1f1840d0,Agile Evaluation Plan-mock-Part1.docx,Evaluation Plan
+eab69b79-5ebb-480c-932a-6c0b8747a3bc,ABCCo Proposal(strong).docx,Tender Proposal
+0825fd60-3b52-472d-931e-94e6aa681751,HIJCo Proposal (Basic).docx,Tender Proposal
+d338de3b-7559-4052-94d8-f3b4bf641e20,XYZCo Proposal(average).docx,Tender Proposal
