@@ -10,8 +10,8 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 #from litellm import embedding
-#from langchain_chroma import Chroma
-from langchain_chroma.vectorstores import Chroma
+from langchain_chroma import Chroma
+#from langchain_chroma.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain_openai import OpenAIEmbeddings
 from langchain.prompts import PromptTemplate
