@@ -2,6 +2,12 @@
 import streamlit as st
 from helper_functions import utility as ut
 
+#---to overcome issue of streamlit cloud runtime error---#
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 def main():
     pages = [st.Page("aboutus.py", title="About Us"),
             st.Page("./pages/docupload.py", title="Document Upload"),

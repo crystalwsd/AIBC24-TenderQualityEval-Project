@@ -22,9 +22,9 @@ from uuid import uuid4
 import streamlit as st
 
 #-- added to overcome issue on Streamlit cloud---#
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+#__import__('pysqlite3')
+#import sys
+#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 embeddings_model = OpenAIEmbeddings(model=vl.EMBEDDING_MODEL)
 

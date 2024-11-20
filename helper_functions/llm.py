@@ -15,9 +15,9 @@ from langchain.retrievers.self_query.base import SelfQueryRetriever
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
 #---to overcome issue of streamlit cloud runtime error---#
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+#__import__('pysqlite3')
+#import sys
+#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Pass the API Key to the OpenAI Client
 '''

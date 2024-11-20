@@ -1,6 +1,7 @@
 # Set up and run this Streamlit App
 import streamlit as st
 import pandas as pd
+import os
 from helper_functions import llm # <--- This is the helper function that we have created 🆕
 from logics import tender_files_handler as th
 from helper_functions import valuelist as vl
