@@ -140,8 +140,7 @@ def get_CollectionInfo(collectionname):
     vectordb = Chroma(
                 collection_name=collectionname,
                 embedding_function=embeddings_model,
-                persist_directory=vl.VECTORDB,  # Where to save data locally, remove if not neccesary
-                is_persistent=True
+                persist_directory=vl.VECTORDB  # Where to save data locally, remove if not neccesary
             )
     collection_docs = vectordb.get()
 
