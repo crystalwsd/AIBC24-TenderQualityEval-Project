@@ -141,6 +141,7 @@ def get_CollectionInfo(collectionname):
                 collection_name=collectionname,
                 embedding_function=embeddings_model,
                 persist_directory=vl.VECTORDB,  # Where to save data locally, remove if not neccesary
+                is_persistent=True
             )
     collection_docs = vectordb.get()
 
