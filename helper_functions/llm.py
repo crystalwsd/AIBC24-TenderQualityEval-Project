@@ -3,6 +3,12 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from helper_functions import valuelist
 import tiktoken
+
+#---to overcome issue of streamlit cloud runtime error---#
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 #from litellm import embedding
 #from langchain_chroma import Chroma
 from langchain_chroma.vectorstores import Chroma
@@ -14,10 +20,6 @@ from langchain.chains.query_constructor.base import AttributeInfo
 from langchain.retrievers.self_query.base import SelfQueryRetriever
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-#---to overcome issue of streamlit cloud runtime error---#
-#__import__('pysqlite3')
-#import sys
-#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Pass the API Key to the OpenAI Client
 '''

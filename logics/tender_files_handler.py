@@ -6,6 +6,11 @@ from helper_functions import utility as ut
 #from logics import query_handler as qh
 from langchain_core.documents import Document 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+#-- added to overcome issue on Streamlit cloud---#
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 #from langchain_chroma import Chroma
 from langchain_chroma.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
@@ -21,10 +26,7 @@ import json
 from uuid import uuid4
 import streamlit as st
 
-#-- added to overcome issue on Streamlit cloud---#
-#__import__('pysqlite3')
-#import sys
-#sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 
 embeddings_model = OpenAIEmbeddings(model=vl.EMBEDDING_MODEL)
 
