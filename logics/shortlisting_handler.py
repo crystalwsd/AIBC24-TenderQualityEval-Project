@@ -43,7 +43,7 @@ def get_ShortlistProposalEvaluation():
         #response = llm.get_RAGChainResponse(finalprompt, max_tokens=4000, collectionname=vl.COLLECTIONNAME_RESULT)
         #return response['result']
 
-        doc_response = llm.get_SimilaritySearch(prompt)
+        doc_response = llm.get_SimilaritySearch(prompt, collectionname=vl.COLLECTIONNAME_RESULT)
         #context = "\n".join([doc.page_content for doc in doc_response])
 
         system_prompt = f"""
