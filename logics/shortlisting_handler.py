@@ -8,7 +8,7 @@ def get_ShortlistProposalEvaluation():
             You are an expert to evaluate a list of shortlisted tender proposals.
             Do the following to help user to evaluate proposal.
 
-            step 1: Retrieve all proposal results documents below and compare the score of similar area of assessments and any sub area of assessment \
+            step 1: Retrieve all proposal results documents given in the context and compare the score of similar area of assessments and any sub area of assessment \
                     among all proposals.
             step 2: For each area of assessment of Quality factor, sort and rank to show the score stated in proposal result document in descending order
             step 3: Compare among the proposals and summarize the reason and state justification for the proposal with the highest score level achieved, make comparison to the other proposals.
